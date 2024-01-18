@@ -1,19 +1,19 @@
-/* Resetting some default styles */
+
 body, ul {
     margin: 0;
-    /* padding: 0; */
+  
 }
 
 header {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    background-color: #574128; /* Set your desired background color */
-    padding: 10px; /* Adjust padding as needed */
+    display: flex; 
+    align-items: center; 
+    background-color: #574128;
+    padding: 10px; 
 }
 
-/* Styling the navigation bar */
+/*  navigation bar */
 #mainNav {
-    background-color:  #dbda8cf5; /* Set your desired background color */
+    background-color:  #dbda8cf5; 
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ header {
 
 #mainNav a {
     display: block;
-    color: rgb(0, 0, 0); /* Set your desired text color */
+    color: rgb(0, 0, 0); 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
@@ -40,7 +40,7 @@ header {
 }
 
 #mainNav a:hover {
-    background-color: #bcc473; /* Set your desired hover background color */
+    background-color: #bcc473; 
 } 
 
 .body {
@@ -48,18 +48,17 @@ header {
   }
 
 .logo img {
-    max-height: 50px; /* Adjust the max height as needed */
-    margin-right: 10px; /* Add some margin to the right of the logo */
+    max-height: 50px; 
+    margin-right: 10px; 
 }
 .long-image {
-    width: 100%; /* Make the image take the full width of its container */
+    width: 100%; 
     height: auto;
-    margin-top: 30px; /* Maintain the image's aspect ratio */
-    /* Add any additional styling you may need */
+    margin-top: 30px; 
+   
 } 
 .container{
     padding: 2rem; 
-    /* Container holding the image and the text */
     position: relative;
     text-align: center;
     color: white;
@@ -100,10 +99,10 @@ header {
 
 .content-container {
     padding: 10px;
-    border: 10px solid #4f8d59; /* Add a border for separation */
-    box-shadow: 0 0 10px rgba(121, 170, 108, 0.1); /* Add a subtle box shadow */
-    background-color: #4d401c; /* Set the background color */
-    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    border: 10px solid #4f8d59; 
+    box-shadow: 0 0 10px rgba(121, 170, 108, 0.1); 
+    background-color: #4d401c; 
+    border-radius: 8px; 
 }
 
 .text { 
@@ -121,29 +120,29 @@ header {
 
 /*intro*/  
 .content {
-    padding: 10px; /* Add padding to the container if needed */
+    padding: 10px; 
  }
 .container {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    background-color: #b9d38a; /* Set your desired background color */ 
+    align-items: center; 
+    background-color: #b9d38a;  
     
     
 }
 
 
 .text {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     padding: 20px; 
     color: #141414;
 }
 
 .image {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 map {
-    padding-left: 20px; /* Add padding to create space between image and map */
+    padding-left: 20px; 
 }
 
 table {
@@ -168,9 +167,8 @@ table {
 }
   
   .long-image{
-    width: 100%; /* Make the image take the full width of its container */
+    width: 100%; 
     height: auto;
-    /* Add any additional style */
   } 
   .text-overlay {
     position: absolute;
@@ -178,10 +176,10 @@ table {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #f0ebeb; /* Set your desired text color */ 
-    font-size: 24px; /* Adjust the font size as needed */ 
-    font-weight: bold; /* Make the text bold */ 
-    background: rgba(92, 91, 91, 0.5); /* Add a semi-transparent black background */
+    color: #f0ebeb; 
+    font-size: 24px; 
+    font-weight: bold; 
+    background: rgba(92, 91, 91, 0.5); 
 } 
 
 /* flex box for maps */ 
@@ -191,30 +189,29 @@ table {
     background-color:#b9d38a; 
     height: 750px;
     margin-bottom: 20px;
-    position: relative; /* Add this line */
+    position: relative; 
 
 }
 
 .flex-item {
    margin-right: 10px;
-    margin-left: 10px; /* Add left margin */
+    margin-left: 10px; 
 }
 
 
 
 .images-container {
     display: flex;
-    justify-content:space-around; /* Adjust as needed */
-    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content:space-around; 
+    flex-wrap: wrap; 
 }
 
 
 .images-container img { 
    
-    max-width: 50%; /* Ensure images don't exceed their container */
+    max-width: 50%; 
     max-height: 50%;
-    margin-bottom: 5px; /* Add spacing between images */
-    /* Add any other styling as needed */
+    margin-bottom: 5px; 
 }
 
 .div1 {
@@ -242,7 +239,7 @@ table {
  .image-container {
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px; /* Add margin between images */ 
+    margin-bottom: 20px; 
     margin-right: 20px;
 }
 
@@ -278,27 +275,27 @@ table {
     background-color: #8f6d46;
     color: #fff;
     padding: 20px;
-    text-align: center; /* Center align the text */
+    text-align: center; 
     z-index: 2;
     position: relative;
 }
 
 .footer-content {
     display: flex;
-    flex-direction: column; /* Stack the child elements vertically */
-    gap: 20px; /* Add some space between the child elements */
+    flex-direction: column; 
+    gap: 20px; 
 }
 
 .contact,
 .social-media {
     flex: 1;
-    text-align: center; /* Align the text inside these sections to the left */
+    text-align: center; 
 }
 
 .contact h3,
 .social-media h3 {
     font-size: 16px;
-    margin-bottom: 10px; /* Add some space below the headings */
+    margin-bottom: 10px; 
 }
 
 .copyright {
@@ -323,7 +320,7 @@ table {
             padding: 0;
             overflow: hidden;
             display: flex;
-            justify-content: space-around; /* Adjust as needed */
+            justify-content: space-around; 
             align-items: center;
     }
 
@@ -333,24 +330,17 @@ table {
     }
    
     .long-image {
-        font-size: 16px; /* Adjust font size for the heading in the long image */
+        font-size: 16px; 
     }
 
     h2 {
-        font-size: 30px; /* Adjust font size for the main heading */
+        font-size: 30px; 
     }
     .text p {
-        font-size: 10px; /* Adjust the font size for paragraphs */
-        line-height: 1.6; /* Adjust the line height for better readability */
+        font-size: 10px; 
+        line-height: 1.6; 
        
-    }
-    
-   
-    
-
-    
-
-    
+    }  
 }
 
     
