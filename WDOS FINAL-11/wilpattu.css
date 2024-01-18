@@ -1,0 +1,170 @@
+
+/* Resetting some default styles */
+body, ul {
+    margin: 0;
+    /* padding: 0; */
+}
+
+header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    background-color: #574128; /* Set your desired background color */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+/* Styling the navigation bar */
+#mainNav {
+    background-color:  #dbda8cf5; /* Set your desired background color */
+    width: 100%;
+}
+
+#mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+#mainNav li {
+    float: left;
+    flex: 1;
+}
+
+#mainNav a {
+    display: block;
+    color: rgb(0, 0, 0); /* Set your desired text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+
+}
+
+#mainNav a:hover {
+    background-color: #bcc473; /* Set your desired hover background color */
+} 
+
+.logo img {
+    max-height: 50px; /* Adjust the max height as needed */
+    margin-right: 10px; /* Add some margin to the right of the logo */
+}
+.long-image {
+    width: 100%;
+    height: auto;
+    display: block;
+} 
+.container {
+    position: relative;
+    width: 100%;
+    
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set your desired text color */ 
+   
+}
+
+h1 {
+    font-size: 80px; /* Set your desired font size */
+    margin: 0; /* Remove default margin */
+}
+
+.container.hover {
+    position: relative;
+}
+
+.container.hover .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-sizing: border-box;
+    font-size: 45px; /* Adjust the font size as needed */
+    color: #fff;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container.hover:hover .text {
+    opacity: 5;
+}
+.container.hover .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+/*footer*/
+
+footer {
+    background-color: #8f6d46;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center align the text */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Stack the child elements vertically */
+    gap: 20px; /* Add some space between the child elements */
+}
+
+.contact,
+.social-media {
+    flex: 1;
+    text-align: center; /* Align the text inside these sections to the left */
+}
+
+.contact h3,
+.social-media h3 {
+    font-size: 16px;
+    margin-bottom: 10px; /* Add some space below the headings */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+    #mainNav {
+        position: relative;
+    }
+
+    #mainNav ul {
+        flex-direction: column;
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+
+    #mainNav li {
+        flex: 1;
+        width: 100%;
+    }
+    .long-image {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 40px; /* Set your desired font size */
+        margin: 0; /* Remove default margin */
+    } 
+    h2 {
+        font-size: 20px; /* Adjust the font size for the heading */
+    }
+
+    .text p {
+        font-size: 10px; /* Adjust the font size for paragraphs */
+        line-height: 1.6; /* Adjust the line height for better readability */
+       
+    }
+
+    
+}
